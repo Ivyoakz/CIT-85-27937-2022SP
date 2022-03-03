@@ -1,0 +1,28 @@
+li:first-child{
+    font-style: oblique;
+}
+
+li:last-child{
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    background-color: red;
+}
+
+li:nth-child(odd) {
+    background-color: greenyellow;
+}
+
+:nth-child(10) {
+    color:blue
+}
+
+li:only-child {
+    font-size: 100px;
+}
+
+
+li:nth-child(5n+1) {
+    color: orange
+}

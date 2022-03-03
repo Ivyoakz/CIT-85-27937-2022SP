@@ -1,0 +1,27 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:0px
+}
+
+
+
+div p {
+    color: red;
+    font-style: italic;
+}
+
+div > p {
+    color: green;
+    font-size: larger;
+}
+
+div ~ p {
+    color:blue
+    
+}
+
+div + p {
+    color:brown
+}
